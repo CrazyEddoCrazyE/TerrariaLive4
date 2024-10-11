@@ -1,0 +1,10 @@
+Mods: {
+	TerrariaLive4: {
+		Buffs: {
+			GravDebuff: {
+				DisplayName: Australian Mode
+				Description: Gravity is reversed
+			}
+		}
+	}
+}
