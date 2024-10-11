@@ -1,12 +1,16 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using TerrariaLive4.CustomBuffs;
 
-public class PermanentBuff : ModPlayer
+namespace TerrariaLive4.Players
 {
-    public override void PreUpdate()
-    {
-
-        Player.AddBuff(BuffID.Gravitation, 2);
-    }
+  public class PermanentBuff : ModPlayer
+  {
+      public override void PreUpdate()
+      {
+          //Player.AddBuff(BuffID.Gravitation, 2);
+           Player.AddBuff(ModContent.BuffType<GravDebuff>(), 2);
+      }
+  }
 }
