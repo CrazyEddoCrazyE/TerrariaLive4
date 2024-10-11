@@ -1,0 +1,3 @@
+displayName = ChallengeMod
+author = CrazyEddoCrazyE
+version = 0.1
