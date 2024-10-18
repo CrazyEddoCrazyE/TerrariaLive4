@@ -1,6 +1,13 @@
 Items: {
 	LetaMosley: {
-		DisplayName: Leta Mosley
 		Tooltip: ""
+		DisplayName: Leta Mosley
+	}
+}
+
+Buffs: {
+	GravDebuff: {
+		Description: Shutup Ed
+		DisplayName: Grav Debuff
 	}
 }
